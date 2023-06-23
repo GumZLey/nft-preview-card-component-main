@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <article class="product">
+      <picture class="product__image">
+        <img src="images/image-equilibrium.jpg" alt="product image">
+        <a href="#">
+          <div class="on-card-hover fade">
+              <img src="images/icon-view.svg" alt="view icon">
+          </div></a>
+        </picture>
+      <div class="product__content">
+        <h1 class="product__header"><a href="#">Equilibrium #3429</a></h1>
+        <p class="product__text">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="product__info flex-group">
+          <p class="price flex-group" data-icon="eth">
+            0.041 ETH
+          </p>
+          <p class="day flex-group" data-icon="clock">3 days left</p>
+        </div>
+        <hr>
+        <div class="product__creator flex-group">
+          <picture class="creator_image">
+            <img src="images/image-avatar.png" alt="">
+          </picture>
+          <p>Creation of <a href="#" class="creator_name fade">Jules Wyvern</a></p>
+        </div>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
